@@ -75,3 +75,5 @@ Selecione um projeto ou crie um novo, depois clique no botão "Criar uma chave d
 # Passo a Passo 3
 E por fim, basta copiar a chave gerada pelo site e inserir no na linha 12 do arquvio "script_do_chat", localizado no diretório "Script".
 ```
+
+## 
