@@ -52,5 +52,26 @@ https://ai.google.dev/gemini-api/docs?hl=pt-br
 
 ```bash
 # Passo a Passo
-Clique no botão azul "Gerar uma chave da API Gemini"
+Clique no botão azul "Gerar uma chave da API Gemini".
+```
+
+![](./Código/Media/Print2.png)
+
+```bash
+# Passo a Passo 2
+Clique no botão azul "Criar chave de API".
+```
+
+![](./Código/Media/Print3.png)
+
+```bash
+# Passo a Passo 3
+Selecione um projeto ou crie um novo, depois clique no botão "Criar uma chave de API em um projeto atual".
+```
+
+![](./Código/Media/Print4.png)
+
+```bash
+# Passo a Passo 3
+E por fim, basta copiar a chave gerada pelo site e inserir no na linha 12 do arquvio "script_do_chat", localizado no diretório "Script".
 ```
