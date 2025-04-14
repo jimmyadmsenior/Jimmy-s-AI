@@ -40,3 +40,5 @@ Para garantir que o chatbot funcionasse de maneira eficiente, implementei técni
 
 ```javascript
 const GOOGLE_API_KEY = "SUA_CHAVE_API";
+```
+
