@@ -76,4 +76,12 @@ Selecione um projeto ou crie um novo, depois clique no botão "Criar uma chave d
 E por fim, basta copiar a chave gerada pelo site e inserir no na linha 12 do arquvio "script_do_chat", localizado no diretório "Script".
 ```
 
-## 
+## Explicação das escolhas de Design
+
+### System Grid
+
+Eu utilizei o System Grid nos 3 itens de sugestão da tela inicial, os "suggests_itens", onde usei display grid e grid-template-columns para agrupá-los em 3 e ficarem simétricos em relação aos outros elementos da página
+
+### UI/UX
+
+Utilizei uma hierarquia visual e clara, usei uma paleta de cores pequena (branco, preto e cinza), coloquei um espaçamento adequado entre os elementos da página e usei efeitos visuais, como o hover ao passar o cursor nos "suggests_itens". O conteúdo também está organizado em blocos, botões visíveis (CTA), e a navegação é simples e visível.
