@@ -36,9 +36,26 @@ Para garantir que o chatbot funcionasse de maneira eficiente, implementei técni
 
 ### Aviso
 
-É importante ressaltar que para utilizar a API do Google Gemini, é necessário obter uma chave de API. No vídeo tutorial que elaborei, mostrei como realizar esse processo e como substituir a chave no arquivo `script.js`, especificamente na linha 12:
+É importante ressaltar que para utilizar a API do Google Gemini, é necessário obter uma chave de API. Quando obter a chave da API, insira ela no arquivo `script_do_chat.js` na pasta `Script`, especificamente na linha 12:
 
 ```javascript
 const GOOGLE_API_KEY = "SUA_CHAVE_API";
 ```
 
+## Tutorial de como obter a chave da API do Google Gemini
+
+```bash
+# URL do site oficial
+https://ai.google.dev/gemini-api/docs?hl=pt-br
+
+![Exemplo de Interface do Chatbot](./Código/Media/Print1.png)
+
+# Como clonar o repositório para sua máquina local
+Para clonar o repositório para sua máquina local basta você mandar
+uma solicitação para nós (Pull Request) propondo ser um afiliado ou ajudante para
+o nosso projeto, lembre-se de enviar uma mensagem relatando o por quê
+que você gostaria de ajudar e como você pode contribuir para o nosso projeto.
+
+# Como clonar o repositório para seu perfil do GitHub
+Aperte no botão Fork na parte de cima dos arquivos,
+ao lado esquerdo da seção de favoritar o repositório.
