@@ -171,7 +171,7 @@ const displayLoadingAnimation = () => {
     const loadingHtml = `
 
         <div class="message__content">
-            <img class="message__avatar" src="assets/gemini.svg" alt="Gemini avatar">
+            <img class="message__avatar" src="../Código/Media/Foto.jpg" alt="Avatar do Jimmy's AI">
             <p class="message__text"></p>
             <div class="message__loading-indicator">
                 <div class="message__loading-bar"></div>
@@ -206,7 +206,7 @@ const handleOutgoingMessage = () => {
     const outgoingMessageHtml = `
     
         <div class="message__content">
-            <img class="message__avatar" src="assets/profile.png" alt="User avatar">
+            <img class="message__avatar" src="../Código/Media/Usuário.webp" alt="Avatar do Usuário">
             <p class="message__text"></p>
         </div>
 
