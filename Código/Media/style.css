@@ -496,7 +496,7 @@ blockquote{
     }
 
     .header__title h1, .header__title h2 {
-        font-size: 2rem;
+        font-size: 1.8rem;
         text-align: center;
     }
 
@@ -524,12 +524,20 @@ blockquote{
         width: 100%;
         height: 3rem;
     }
+
+    .navbar__logo {
+        font-size: 1.2rem;
+    }
+
+    .prompt__disclaim {
+        font-size: 0.7rem;
+    }
 }
 
 /* Breakpoint para Tablet (768px a 1023px) */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .header__title h1, .header__title h2 {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
         text-align: center;
     }
 
@@ -545,16 +553,24 @@ blockquote{
     .prompt__form-input {
         font-size: 1rem;
     }
+
+    .navbar__logo {
+        font-size: 1.5rem;
+    }
+
+    .prompt__disclaim {
+        font-size: 0.8rem;
+    }
 }
 
 /* Breakpoint para Desktop (1024px e acima) */
 @media screen and (min-width: 1024px) {
     .header__title h1 {
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
 
     .header__title h2 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .suggests {
@@ -568,5 +584,13 @@ blockquote{
 
     .prompt__form-input {
         font-size: 1.2rem;
+    }
+
+    .navbar__logo {
+        font-size: 1.8rem;
+    }
+
+    .prompt__disclaim {
+        font-size: 0.9rem;
     }
 }
