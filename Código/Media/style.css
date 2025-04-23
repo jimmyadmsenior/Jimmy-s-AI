@@ -500,13 +500,15 @@ blockquote{
     }
 
     .suggests {
-        grid-template-columns: 1fr;
-        gap: 1rem;
+        grid-template-columns: repeat(3, 1fr); /* Exibe os 3 cards em uma linha */
+        gap: 0.5rem; /* Reduz o espaçamento entre os cards */
+        overflow-x: auto; /* Permite rolagem horizontal caso necessário */
     }
 
     .suggests__item {
-        width: 100%;
-        height: auto;
+        width: auto; /* Ajusta a largura dos cards para caber no espaço disponível */
+        height: auto; /* Ajusta a altura automaticamente */
+        flex-shrink: 0; /* Impede que os cards encolham */
     }
 
     .prompt__input-wrapper {
@@ -520,8 +522,15 @@ blockquote{
     }
 
     .prompt__form-button {
-        width: 100%;
-        height: 3rem;
+        width: 48px; /* Garante que os botões tenham tamanhos consistentes */
+        height: 48px;
+    }
+
+    .prompt__form-input:valid ~ #deleteButton {
+        right: 1rem; /* Ajusta a posição para telas menores */
+        transform: translateY(-50%);
+        width: 48px; /* Garante que o botão tenha um tamanho fixo */
+        height: 48px;
     }
 
     .navbar__logo {
