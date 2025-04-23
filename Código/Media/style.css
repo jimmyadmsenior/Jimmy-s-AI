@@ -488,7 +488,6 @@ blockquote{
 
 }
 
-/* Breakpoint para Mobile (até 767px) */
 @media screen and (max-width: 767px) {
     .navbar {
         flex-direction: column;
