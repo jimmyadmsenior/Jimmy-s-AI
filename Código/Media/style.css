@@ -488,6 +488,7 @@ blockquote{
 
 }
 
+/* Esconde os cards de prompts na resolução mobile */
 @media screen and (max-width: 767px) {
     .navbar {
         flex-direction: column;
@@ -496,19 +497,16 @@ blockquote{
 
     .header__title h1, .header__title h2 {
         font-size: 1.8rem;
-        text-align: center;
+        text-align: left; /* Remove a centralização */
     }
 
     .suggests {
-        grid-template-columns: repeat(3, 1fr); /* Exibe os 3 cards em uma linha */
-        gap: 0.5rem; /* Reduz o espaçamento entre os cards */
-        overflow-x: auto; /* Permite rolagem horizontal caso necessário */
+        display: none; /* Esconde os cards */
     }
 
     .suggests__item {
-        width: auto; /* Ajusta a largura dos cards para caber no espaço disponível */
-        height: auto; /* Ajusta a altura automaticamente */
-        flex-shrink: 0; /* Impede que os cards encolham */
+        width: 100%;
+        height: auto;
     }
 
     .prompt__input-wrapper {
@@ -522,14 +520,14 @@ blockquote{
     }
 
     .prompt__form-button {
-        width: 48px; /* Garante que os botões tenham tamanhos consistentes */
+        width: 48px; /* Garante tamanhos consistentes */
         height: 48px;
     }
 
     .prompt__form-input:valid ~ #deleteButton {
         right: 1rem; /* Ajusta a posição para telas menores */
         transform: translateY(-50%);
-        width: 48px; /* Garante que o botão tenha um tamanho fixo */
+        width: 48px; /* Define um tamanho fixo */
         height: 48px;
     }
 
@@ -542,6 +540,7 @@ blockquote{
     }
 }
 
+/* Breakpoint para Tablet (768px a 1023px) */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .header__title h1, .header__title h2 {
         font-size: 2.2rem;
@@ -570,7 +569,7 @@ blockquote{
     }
 }
 
-/* Breakpoint para Desktop (1024px e acima) */
+/* Mostra os cards de prompts na resolução desktop */
 @media screen and (min-width: 1024px) {
     .header__title h1 {
         font-size: 3rem;
@@ -583,6 +582,7 @@ blockquote{
     .suggests {
         grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
+        display: grid; /* Mostra os cards novamente */
     }
 
     .suggests__item {
